@@ -20,18 +20,9 @@ The File AES Encryption and Decryption Program is a Python-based application tha
 
 <h2>IDE </h2>
 
-- <b>Jupiter Notebook </b> (21H2)
+- <b>Jupiter Notebook </b> 
 
 
-"data.json" for database storage</b>
-
-- <b> The code then specifies two primary functions: &quot;admin()&quot; and
-"user()". The "admin()" function handles administrative activities, whereas the "user()" function
-handles user-specific functions.</b>
-
-<!--
- ```diff
-- text in red
 + text in green
 ! text in orange
 # text in gray
