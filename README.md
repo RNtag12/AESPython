@@ -13,7 +13,7 @@ The File AES Encryption and Decryption Program is a Python-based application tha
 - <b>pyfiglet</b>
 - <b>hashes</b> 
 - <b>time</b>
-- <b>threading/b>
+- <b>threading </b>
 - <b>Termcolor</b>
 
 
