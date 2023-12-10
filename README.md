@@ -22,10 +22,3 @@ The File AES Encryption and Decryption Program is a Python-based application tha
 
 - <b>Jupiter Notebook </b> 
 
-
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
