@@ -25,10 +25,10 @@ The File AES Encryption and Decryption Program is a Python-based application tha
 - <b>Termcolor</b>
 
 <h2>IDE </h2>
-- <b>Jupiter Notebook </b> 
+<b>Jupiter Notebook </b> 
 
 ## How It Works
-- <b> Key Generation</b> 
+- <b> Key Generation</b>
 The utility converts a user-provided password into a secure key using the PBKDF2HMAC key derivation function. This function includes a randomly generated salt to enhance security.
 
 ```python
@@ -46,7 +46,7 @@ def password(passwd):
     return k
 ```
 
-- <b> Encryption Function</b> 
+- <b> Encryption Function</b>
 The encrypt function reads the contents of a file, encrypts it using the derived key, and writes the encrypted data to a new file with a .en extension. The original file is then deleted.
 ```python
 def encrypt(key, file):
@@ -81,7 +81,7 @@ def encrypt(key, file):
         print("Something went wrong", e)
 ```
 
-- <b> Decryption Function</b> 
+- <b> Decryption Function</b>
 The decrypt function reads the encrypted file, extracts the salt, derives the key using the password and salt, decrypts the data, and writes the original content back to a file.
 ```python
 def decrypt(key, file):
